@@ -25,7 +25,6 @@ import './src/modules/total_pages';
 import './src/modules/viewerpreferences';
 import './src/modules/xmp_metadata';
 import './src/modules/utf8';
-import './src/modules/bidiEngine.js';
 import './src/modules/vfs';
 
 import './src/libs/adler32cs.js';
@@ -36,6 +35,8 @@ import './src/libs/rgbcolor.js';
 import './src/libs/ttffont.js';
 import './src/libs/png.js';
 import './src/libs/zlib.js';
+import './src/libs/bidiEngine.js';
+
 
 
 export default jsPDF;
