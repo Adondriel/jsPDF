@@ -2241,7 +2241,7 @@ var jsPDF = (function (global) {
 
       out(result);
 	  usedFonts[activeFontKey] = true;
-      return {doc: scope, x: posX, y: posY};
+      return scope;
     };
 
     /**
